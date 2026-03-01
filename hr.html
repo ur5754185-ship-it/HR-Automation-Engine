@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Automation System</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to right, #eef2f7, #dbeafe);
+        }
+        header {
+            background-color: #1e3a8a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #1e40af;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .card {
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card h3 {
+            color: #1e3a8a;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #2563eb;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background-color: #1d4ed8;
+        }
+        footer {
+            background-color: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Autonomous HR Automation System</h1>
+    <p>Streamlining Recruitment, Leave Management & Communication with Intelligent Automation</p>
+</header>
+
+<nav>
+    <a href="#recruitment">Recruitment</a>
+    <a href="#leave">Leave Management</a>
+    <a href="#communication">Communication</a>
+    <a href="#audit">Audit & Compliance</a>
+</nav>
+
+<div class="container">
+    <h2>Core HR Automation Modules</h2>
+    <p>Designed to automate high-frequency HR decisions while ensuring policy compliance and full auditability.</p>
+
+    <div class="cards">
+        <div class="card" id="recruitment">
+            <h3>Recruitment Funnel Management</h3>
+            <p>
+                Automates candidate screening, ranking, interview scheduling,
+                and status tracking across hiring stages.
+            </p>
+            <a href="#" class="btn">Manage Candidates</a>
+        </div>
+
+        <div class="card" id="leave">
+            <h3>Policy-Compliant Leave Administration</h3>
+            <p>
+                Tracks employee leave balances, validates policy rules,
+                and automates approval workflows.
+            </p>
+            <a href="#" class="btn">Apply / Approve Leave</a>
+        </div>
+
+        <div class="card" id="communication">
+            <h3>Candidate Communication</h3>
+            <p>
+                Sends automated interview invites, reminders,
+                status updates, and feedback notifications.
+            </p>
+            <a href="#" class="btn">Send Notifications</a>
+        </div>
+
+        <div class="card" id="audit">
+            <h3>Audit & Policy Compliance</h3>
+            <p>
+                Maintains transparent logs of decisions,
+                ensures rule-based processing, and supports compliance checks.
+            </p>
+            <a href="#" class="btn">View Audit Logs</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 HR Autonomous Agent | Intelligent HR Workflow Automation</p>
+</footer>
+
+</body>
+</html>
